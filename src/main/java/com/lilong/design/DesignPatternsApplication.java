@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class DesignPatternsApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(DesignPatternsApplication.class, args);
         log.info("设计模式模块启动成功");
     }
